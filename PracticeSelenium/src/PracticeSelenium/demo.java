@@ -11,7 +11,12 @@ public class demo {
 		driver.get("https://www.youtube.com/watch?v=LSAmtc__HFY");
 		String str=driver.getTitle();
 		System.out.println(str);
+		System.out.println(str);
+		driver.quit();
+		System.out.println("swamy");
 
+		System.out.println("vadde");
+		System.out.println("yerri");
 	}
 
 }
